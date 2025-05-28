@@ -11,7 +11,7 @@
   "quality": "1080p",
   "baseUrl": "https://yeniwatch.net.tr",
   "searchBaseUrl": "https://yeniwatch.net.tr/?s=%s",
-  "scriptUrl": "https://yeniwatch.net.tr/sora/yeniwatch.js",
+  "scriptUrl": "https://raw.githubusercontent.com/riassan/anisor/refs/heads/main/yeni.js",
   "asyncJS": true,
   "streamAsyncJS": false,
   "softsub": true
