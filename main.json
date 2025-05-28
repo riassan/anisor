@@ -1,0 +1,18 @@
+{
+  "sourceName": "YeniWatch",
+  "iconUrl": "https://yeniwatch.net.tr/favicon.ico",
+  "author": {
+    "name": "YeniWatchExtractor",
+    "icon": "https://yeniwatch.net.tr/favicon.ico"
+  },
+  "version": "1.0.0",
+  "language": "Turkish",
+  "streamType": "HLS",
+  "quality": "1080p",
+  "baseUrl": "https://yeniwatch.net.tr",
+  "searchBaseUrl": "https://yeniwatch.net.tr/?s=%s",
+  "scriptUrl": "https://yeniwatch.net.tr/sora/yeniwatch.js",
+  "asyncJS": true,
+  "streamAsyncJS": false,
+  "softsub": true
+}
