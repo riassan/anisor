@@ -14,5 +14,5 @@
   "scriptUrl": "https://raw.githubusercontent.com/riassan/anisor/refs/heads/main/yeni.js",
   "asyncJS": true,
   "streamAsyncJS": false,
-  "softsub": true
+  "softsub": false
 }
