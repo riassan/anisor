@@ -13,6 +13,4 @@
   "searchBaseUrl": "https://yeniwatch.net.tr/?s=%s",
   "scriptUrl": "https://raw.githubusercontent.com/riassan/anisor/refs/heads/main/yeni.js",
   "asyncJS": true,
-  "streamAsyncJS": false,
-  "softsub": false
 }
