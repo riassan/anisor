@@ -1,33 +1,47 @@
 {
-  "id": "anm.cx",
+  "id": "AnmCx",
   "name": "Anm.cx",
-  "description": "Türkçe Altyazılı ve Dublaj Anime İzleme Sitesi",
-  "iconUrl": "https://anm.cx/apple-touch-icon.png",
-  "baseUrl": "https://anm.cx",
-  "lang": "tr",
-  "version": "1.0.0",
+  "author": "Rias",
+  "version": "1.0.1",
+  "description": "Anm.cx sitesinden Türkçe altyazılı ve dublaj anime izlemek için kaynak.",
+  "icon": "anmcx.png",
+  "websiteBaseURL": "https://anm.cx",
+  "sourceTags": [
+    {
+      "text": "Türkçe",
+      "type": "info"
+    },
+    {
+      "text": "Anime",
+      "type": "success"
+    }
+  ],
+  "contentRating": "EVERYONE",
   "sourceType": "DOM",
-  "isNsfw": false,
-  "quality": "1080p",
-  "scriptUrl": "https://raw.githubusercontent.com/riassan/anisor/refs/heads/Vay/yeni.js",
-  "asyncJS": true,
   "type": "ANIME",
   "homePageSections": [
     {
-      "id": "son-eklenen-bolumler",
-      "title": "Son Eklenen Bölümler"
+      "id": "son_eklenen_bolumler",
+      "title": "Son Eklenen Bölümler",
+      "type": "latest"
     },
     {
-      "id": "populer-animeler",
-      "title": "Popüler Animeler"
+      "id": "populer_animeler",
+      "title": "Popüler Animeler",
+      "type": "featured"
     },
     {
-      "id": "yeni-eklenen-animeler",
-      "title": "Yeni Eklenen Animeler"
+      "id": "yeni_eklenen_animeler",
+      "title": "Yeni Eklenen Animeler",
+      "type": "new"
     }
   ],
   "searchAvailable": true,
   "filterAvailable": false,
-  "supportsLatest": true
+  "lang": "tr",
+  "isNsfw": false,
+  "supportsLatest": true,
+  "supportsCloudflareBypass": false,
+  "language": "Turkish"
 }
 
