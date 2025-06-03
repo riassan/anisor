@@ -1,18 +1,33 @@
 {
-  "sourceName": "YeniWatch",
-  "iconUrl": "https://yeniwatch.net.tr/favicon.ico",
-  "author": {
-    "name": "YeniWatchExtractor",
-    "icon": "https://yeniwatch.net.tr/favicon.ico"
-  },
+  "id": "anm.cx",
+  "name": "Anm.cx",
+  "description": "Türkçe Altyazılı ve Dublaj Anime İzleme Sitesi",
+  "iconUrl": "https://anm.cx/apple-touch-icon.png",
+  "baseUrl": "https://anm.cx",
+  "lang": "tr",
   "version": "1.0.0",
-  "language": "Turkish",
-  "streamType": "HLS",
+  "sourceType": "DOM",
+  "isNsfw": false,
   "quality": "1080p",
-  "baseUrl": "https://yeniwatch.net.tr",
-  "searchBaseUrl": "https://yeniwatch.net.tr/?s=%s",
   "scriptUrl": "https://raw.githubusercontent.com/riassan/anisor/refs/heads/main/yeni.js",
   "asyncJS": true,
-  "streamAsyncJS": false,
-  "softsub": true
-}
+  "type": "ANIME",
+  "homePageSections": [
+    {
+      "id": "son-eklenen-bolumler",
+      "title": "Son Eklenen Bölümler"
+    },
+    {
+      "id": "populer-animeler",
+      "title": "Popüler Animeler"
+    },
+    {
+      "id": "yeni-eklenen-animeler",
+      "title": "Yeni Eklenen Animeler"
+    }
+  ],
+  "searchAvailable": true,
+  "filterAvailable": false,
+  "supportsLatest": true
+}```
+
