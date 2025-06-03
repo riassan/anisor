@@ -40,6 +40,8 @@
   "filterAvailable": false,
   "lang": "tr",
   "isNsfw": false,
+  "scriptUrl": "https://raw.githubusercontent.com/riassan/anisor/refs/heads/Vay/yeni.js",
+  "asyncJS": true,
   "supportsLatest": true,
   "supportsCloudflareBypass": false,
   "language": "Turkish"
