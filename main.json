@@ -1,11 +1,10 @@
 {
-  "id": "AnmCx",
-  "name": "Anm.cx",
+  "sourceName": "Anm.cx",
   "author": "Rias",
   "version": "1.0.1",
   "description": "Anm.cx sitesinden Türkçe altyazılı ve dublaj anime izlemek için kaynak.",
   "icon": "anmcx.png",
-  "websiteBaseURL": "https://anm.cx",
+  "baseURL": "https://anm.cx",
   "sourceTags": [
     {
       "text": "Türkçe",
